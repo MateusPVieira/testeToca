@@ -1,0 +1,50 @@
+
+.page {
+  --gray-rgb: 0, 0, 0;
+  --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
+  --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
+
+  --button-primary-hover: #383838;
+  --button-secondary-hover: #f2f2f2;
+
+  min-height: 100svh;
+  font-family: var(--font-geist-sans);
+  margin: 2rem 3rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  .page {
+    --gray-rgb: 255, 255, 255;
+    --gray-alpha-200: rgba(var(--gray-rgb), 0.145);
+    --gray-alpha-100: rgba(var(--gray-rgb), 0.06);
+
+    --button-primary-hover: #ccc;
+    --button-secondary-hover: #1a1a1a;
+  }
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: var(--primary);
+  margin: 1rem 0;
+}
+
+.description {
+  padding-bottom: 0.5rem;
+  font-size: 12px;
+}
+
+.selectionDescription {
+  font-size: 14px;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.menuOptions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}

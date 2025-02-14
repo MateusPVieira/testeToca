@@ -1,0 +1,55 @@
+.chipSlider {
+    margin: 1rem 0;
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding-bottom: 0.5rem;
+    scroll-behavior: smooth;
+}
+
+.chipSlider::-webkit-scrollbar {
+    height: 6px;
+}
+
+.chipSlider::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+}
+
+.groupTitle {
+    margin-top: 2.5rem;
+    font-size: 18px;
+    text-align: center;
+    color: var(--primary);
+}
+
+.groupSubtitle {
+    font-size: 12px;
+    text-align: center;
+    color: var(--text-secondary);
+}
+
+.subgroupTitle {
+    font-size: 13px;
+    color: var(--primary);
+    margin-top: 1rem;
+}
+
+.page {
+    min-height: 100svh;
+    font-family: var(--font-geist-sans);
+    margin: 2rem 3rem;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: var(--primary);
+    margin: 2rem 0;
+}
+
+.backButton {
+    text-align: center;
+}

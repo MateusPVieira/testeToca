@@ -1,0 +1,23 @@
+.chip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-items);
+    color: rgb(0, 0, 0);
+    min-width: fit-content;
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.chip:hover {
+    cursor: pointer;
+}
+
+.chip.active {
+    background-color: var(--primary);
+    font-weight: bold;
+    color: var(--background);
+  }
